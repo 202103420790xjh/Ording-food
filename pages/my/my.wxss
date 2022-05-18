@@ -1,0 +1,18 @@
+/* pages/person/person.wxss */
+page{
+  display: flex;
+  flex-direction: column;
+}
+
+.top{
+  display: flex;
+  justify-content: center;
+  margin-top:60rpx;
+}
+
+.avater{
+  display: block;
+  width:140rpx;
+  height:140rpx;
+  border-radius:100%;
+}

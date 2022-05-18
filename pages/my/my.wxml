@@ -1,0 +1,54 @@
+<!--pages/person/person.wxml-->
+<view class="top">
+    <image class="avater" src="../../images/头像.jpg"></image>
+</view>
+
+<view class="content padding solid-bottom">
+        <image style="width: 30rpx;height: 30rpx;" src="../../images/爱心.png" class="png" mode="aspectFit"></image>
+        
+        <text class="text-grey padding text-xl" >喜欢</text>
+        <image style="width: 30rpx;height: 30rpx; float: right;" src="../../images/箭头.png" class="png" mode="aspectFit"></image>
+
+</view>
+<view class="content padding solid-bottom">
+        <image style="width: 30rpx;height: 30rpx;" src="../../images/收藏.png" class="png" mode="aspectFit"></image>
+        
+        <text class="text-grey padding text-xl" >收藏</text>
+        <image style="width: 30rpx;height: 30rpx; float: right;" src="../../images/箭头.png" class="png" mode="aspectFit"></image>
+
+</view>
+<view class="content padding solid-bottom">
+        <image style="width: 30rpx;height: 30rpx;" src="../../images/账单_详情.png" class="png" mode="aspectFit"></image>
+        
+        <text class="text-grey padding text-xl" >订单详情</text>
+        <image style="width: 30rpx;height: 30rpx; float: right;" src="../../images/箭头.png" class="png" mode="aspectFit"></image>
+
+</view>
+<view class="content padding solid-bottom">
+        <image style="width: 30rpx;height: 30rpx;" src="../../images/消息.png" class="png" mode="aspectFit"></image>
+        
+        <text class="text-grey padding text-xl" >消息</text>
+        <image style="width: 30rpx;height: 30rpx; float: right;" src="../../images/箭头.png" class="png" mode="aspectFit"></image>
+
+</view>
+<view class="content padding solid-bottom">
+        <image style="width: 30rpx;height: 30rpx;" src="../../images/导航地址 (1).png" class="png" mode="aspectFit"></image>
+        
+        <text class="text-grey padding text-xl" >地址</text>
+        <image style="width: 30rpx;height: 30rpx; float: right;" src="../../images/箭头.png" class="png" mode="aspectFit"></image>
+
+</view>
+<view class="content padding solid-bottom">
+        <image style="width: 30rpx;height: 30rpx;" src="../../images/设置.png" class="png" mode="aspectFit"></image>
+        
+        <text class="text-grey padding text-xl" >设置</text>
+        <image style="width: 30rpx;height: 30rpx; float: right;" src="../../images/箭头.png" class="png" mode="aspectFit"></image>
+
+</view>
+<view class="content padding solid-bottom">
+        <image style="width: 30rpx;height: 30rpx;" src="../../images/Contact Customer Service.png" class="png" mode="aspectFit"></image>
+        
+        <text class="text-grey padding text-xl" >客服</text>
+        <image style="width: 30rpx;height: 30rpx; float: right;" src="../../images/箭头.png" class="png" mode="aspectFit"></image>
+
+</view>

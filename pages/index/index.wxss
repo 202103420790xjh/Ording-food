@@ -12,7 +12,9 @@
 	width: 33%;
 	height: 6rem;
 	line-height: 6rem;
-	border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid rgb(133, 130, 130);
+  
+ 
 	background-color: #fff;
 	text-align: center;
 }

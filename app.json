@@ -1,14 +1,39 @@
 {
-  "pages":[
+  "pages": [
+   
     "pages/index/index",
+    "pages/my/my",
     "pages/components/dishes/dishes",
     "pages/components/take/take"
   ],
-  "window":{
-    "backgroundColor":"#f4f4f4",
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "orange",
-    "navigationBarTitleText": "美食汇微菜单",
-    "navigationBarTextStyle":"white"
+  "window": {
+    "backgroundColor": "#f4f4f4",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ed1c24",
+    "navigationBarTitleText": "辉辉美食",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap.json",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/images/page.png",
+      "selectedIconPath": "/images/select-page.png"
+    },
+    {
+     "pagePath": "pages/my/my",
+     "text": "个人",
+     "iconPath": "/images/person.png",
+     "selectedIconPath": "/images/select-person.png"
+    }]
   }
 }
